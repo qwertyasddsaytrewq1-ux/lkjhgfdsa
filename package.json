@@ -1,0 +1,17 @@
+{
+  "name": "carrom-panel",
+  "version": "1.0.0",
+  "description": "Key auth panel for carrom client (Fly.io + SQLite volume)",
+  "main": "server.js",
+  "private": true,
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.5.0",
+    "express": "^4.21.1"
+  }
+}
